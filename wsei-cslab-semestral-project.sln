@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsei-cslab-semestral-project", "wsei-cslab-semestral-project\wsei-cslab-semestral-project.csproj", "{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2452CC7A-D947-4775-BE0E-D72F4B72E1B2}
+	EndGlobalSection
+EndGlobal
