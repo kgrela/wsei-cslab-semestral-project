@@ -1,9 +1,9 @@
-#Projekt semestralny - programowanie obiektowe C# (2020/21)
-##Cel
+# Projekt semestralny - programowanie obiektowe C# (2020/21)
+## Cel
 Opracowanie prostej aplikacji desktopowej w języku C# umożliwiającej dostęp i zarządzanie prostą bazą danych.
 Na I roku studiów realizowałeś semestralny projekt z przedmiotu "Wprowadzenie do baz danych". Teraz, wykorzystując tę bazę danych, wykonaj aplikację umożliwiającą zarządzanie jej zawartością (CRUD). Możesz jednak wykorzystać inną bazę danych.
 
-##Wymagania formalne
+## Wymagania formalne
 - baza danych (relacyjna): minimum 4 tabele
 - serwer bazodanowy: wskazany SQLight lub MS SQL Server jako LocalDB w VisualStudio (SQL Server Express)
 - ORM: Entity Framework dla C#
@@ -12,12 +12,12 @@ Na I roku studiów realizowałeś semestralny projekt z przedmiotu "Wprowadzenie
 - projekt indywidualny (jednoosobowy) prowadzony na GitHub (częste commity)
 - dokumentacja XML publicznych składników kodu (zgodnie z wytycznymi Microsoft)
 
-##Elementy dodatkowe
+## Elementy dodatkowe
 - testy jednostkowe dla publicznych składników kodu dotyczących logiki aplikacji
 - instalator aplikacji
 - dokumentacja aplikacji
 
-##Kryteria oceniania
+## Kryteria oceniania
 - suma punktów: 40 pkt.
 - merytoryczna poprawność, jakość kodu, elementy dodatkowe, złożoność aplikacji: 0..20 pkt.
 - estetyka aplikacji: 0..5 pkt.
