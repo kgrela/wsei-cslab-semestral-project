@@ -31,5 +31,12 @@ namespace wsei_cslab_semestral_project
             k.Show();
             this.Close();
         }
+
+        private void btn_4_Click(object sender, RoutedEventArgs e)
+        {
+            AddAlarm k = new AddAlarm();
+            k.Show();
+            this.Close();
+        }
     }
 }
