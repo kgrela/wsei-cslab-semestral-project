@@ -1,0 +1,27 @@
+﻿<Window x:Class="wsei_cslab_semestral_project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wsei_cslab_semestral_project"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <Image Margin="-8,-106,-8,-9" Source="/background.jpg" Stretch="UniformToFill" Opacity="0.4">
+            <Image.Effect>
+                <BlurEffect/>
+            </Image.Effect>
+        </Image>
+        <TextBlock Margin="160,50,160,0" Text="PROGRAM DO ZARZĄDZANIA BAZĄ DANYCH JEDNOSTKI OCHOTNICZEJ STRAŻY POŻARNEJ" TextWrapping="Wrap" FontSize="22" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Normal" Height="107" VerticalAlignment="Top"/>
+        <Button x:Name="btn_1" Content="Dodaj członka" Margin="160,192,0,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" Click="btn_1_Click" HorizontalAlignment="Left" Width="202"/>
+        <Button x:Name="btn_2" Content="Button" Margin="160,237,0,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" HorizontalAlignment="Left" Width="202"/>
+        <Button x:Name="btn_3" Content="Button" Margin="160,282,0,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" FontWeight="Normal" HorizontalAlignment="Left" Width="202"/>
+        <Button x:Name="btn_4" Content="Dodaj alarm" Margin="0,192,160,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" HorizontalAlignment="Right" Width="202"/>
+        <Button x:Name="btn_5" Content="Button" Margin="0,237,160,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" HorizontalAlignment="Right" Width="202"/>
+        <Button x:Name="btn_6" Content="Button" Margin="0,282,160,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="16" HorizontalAlignment="Right" Width="202"/>
+
+    </Grid>
+
+</Window>
+
+    

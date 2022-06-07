@@ -24,5 +24,12 @@ namespace wsei_cslab_semestral_project
         {
             InitializeComponent();
         }
+
+        private void btn_1_Click(object sender, RoutedEventArgs e)
+        {
+            AddMember k = new AddMember();
+            k.Show();
+            this.Close();
+        }
     }
 }

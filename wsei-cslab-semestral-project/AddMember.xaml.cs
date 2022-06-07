@@ -8,19 +8,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace wsei_cslab_semestral_project
 {
     /// <summary>
-    /// Logika interakcji dla klasy Page1.xaml
+    /// Logika interakcji dla klasy AddMember.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class AddMember : Window
     {
-        public Page1()
+        public AddMember()
         {
             InitializeComponent();
         }
+
     }
 }
