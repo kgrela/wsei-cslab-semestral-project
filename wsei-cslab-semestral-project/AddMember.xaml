@@ -12,7 +12,7 @@
                 <BlurEffect/>
             </Image.Effect>
         </Image>
-        <Button x:Name="btn_addMember" Content="Dodaj członka" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom"/>
+        <Button x:Name="btn_addMember" Content="Dodaj członka" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom" Click="btn_addMember_Click"/>
         <Grid Margin="222,60,223,0" Height="233" VerticalAlignment="Top">
             <Label Content="ID" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
             <Label Content="IMIE" HorizontalAlignment="Left" Margin="104,34,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
@@ -29,5 +29,6 @@
             <TextBox x:Name="Input_JoinDate" Height="22" Margin="155,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBox x:Name="Input_Role" Height="22" Margin="155,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         </Grid>
+        <Button x:Name="Button_Exit" Content="X" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" Height="50" Width="50" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="48" Click="Button_Exit_Click"/>
     </Grid>
 </Window>

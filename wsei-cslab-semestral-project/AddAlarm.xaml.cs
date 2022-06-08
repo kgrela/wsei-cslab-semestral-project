@@ -21,5 +21,12 @@ namespace wsei_cslab_semestral_project
         {
             InitializeComponent();
         }
+
+        private void Button_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow k = new MainWindow();
+            k.Show();
+            this.Close();
+        }
     }
 }

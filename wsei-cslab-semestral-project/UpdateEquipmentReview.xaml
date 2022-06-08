@@ -19,5 +19,6 @@
             <TextBox x:Name="Input_ID" Height="22" Margin="155,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
             <TextBox x:Name="Input_Date" Height="22" Margin="155,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         </Grid>
+        <Button x:Name="Button_Exit" Content="X" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" Height="50" Width="50" FontFamily="Bahnschrift" FontWeight="Bold" FontSize="48" Click="Button_Exit_Click"/>
     </Grid>
 </Window>
