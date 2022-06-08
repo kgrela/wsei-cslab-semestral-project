@@ -38,5 +38,12 @@ namespace wsei_cslab_semestral_project
             k.Show();
             this.Close();
         }
+
+        private void btn_3_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateEquipmentReview k = new UpdateEquipmentReview();
+            k.Show();
+            this.Close();
+        }
     }
 }
