@@ -16,6 +16,7 @@
         <Button x:Name="btn_1" Content="Dodaj członka" Margin="299,180,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" Click="btn_1_Click"/>
         <Button x:Name="btn_3" Content="Zaktualizuj termin&#x0a;przeglądu sprzętu" Margin="299,270,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" FontWeight="Normal" Click="btn_3_Click"/>
         <Button x:Name="btn_2" Content="Dodaj alarm" Margin="299,225,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" Click="btn_2_Click"/>
+        <Border BorderThickness="1" BorderBrush="Black"/>
 
     </Grid>
 
