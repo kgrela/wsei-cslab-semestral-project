@@ -12,7 +12,7 @@
                 <BlurEffect/>
             </Image.Effect>
         </Image>
-        <Button x:Name="btn_addMember" Content="Zaktualizuj termin" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom"/>
+        <Button x:Name="btn_addMember" Content="Zaktualizuj termin" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom" Click="btn_addMember_Click"/>
         <Grid Margin="150,160,222,0" Height="140" VerticalAlignment="Top">
             <Label Content="ID" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
             <Label Content="DATA" HorizontalAlignment="Left" Margin="104,34,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>

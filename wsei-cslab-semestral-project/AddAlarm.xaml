@@ -12,7 +12,7 @@
                 <BlurEffect/>
             </Image.Effect>
         </Image>
-        <Button x:Name="btn_addMember" Content="Dodaj alarm" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom"/>
+        <Button x:Name="btn_addAlarm" Content="Dodaj alarm" Margin="299,0,299,60" FontFamily="Bahnschrift" FontSize="16" Height="40" VerticalAlignment="Bottom" Click="btn_addAlarm_Click_1"/>
         <Grid Margin="150,120,222,0" Height="140" VerticalAlignment="Top">
             <Label Content="ID" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
             <Label Content="DATA" HorizontalAlignment="Left" Margin="104,34,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>

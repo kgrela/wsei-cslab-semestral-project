@@ -28,5 +28,25 @@ namespace wsei_cslab_semestral_project
             k.Show();
             this.Close();
         }
+
+        UpdateEquipmentReviewClass a = new UpdateEquipmentReviewClass();
+
+        private void btn_addMember_Click(object sender, RoutedEventArgs e)
+        {
+            Int32.TryParse(Input_ID.Text, out int id);
+            a.ID = id;
+            a.Date = Input_Date.Text;
+
+            bool success = a.Update(a);
+            if (success)
+            {
+                MessageBox.Show("Termin badania sprzętu został zaaktualizowany!");
+            }
+            else
+            {
+                MessageBox.Show("Wystąpił błąd! Spróbuj ponownie...");
+            }
+
+        }
     }
 }
