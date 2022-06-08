@@ -25,6 +25,10 @@ namespace wsei_cslab_semestral_project
             InitializeComponent();
         }
 
+
+        /// <summary>
+        /// Function called when the btn_1 object is pressed
+        /// </summary>
         private void btn_1_Click(object sender, RoutedEventArgs e)
         {
             AddMember k = new AddMember();
@@ -32,18 +36,26 @@ namespace wsei_cslab_semestral_project
             this.Close();
         }
 
-        private void btn_4_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Function called when the btn_2 object is pressed
+        /// </summary>
+        private void btn_2_Click(object sender, RoutedEventArgs e)
         {
             AddAlarm k = new AddAlarm();
             k.Show();
             this.Close();
+        
         }
 
+        /// <summary>
+        /// Function called when the btn_3 object is pressed
+        /// </summary>
         private void btn_3_Click(object sender, RoutedEventArgs e)
         {
             UpdateEquipmentReview k = new UpdateEquipmentReview();
             k.Show();
             this.Close();
         }
+
     }
 }

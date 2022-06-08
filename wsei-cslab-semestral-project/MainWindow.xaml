@@ -13,10 +13,9 @@
             </Image.Effect>
         </Image>
         <TextBlock Margin="160,50,160,0" Text="PROGRAM DO ZARZĄDZANIA BAZĄ DANYCH JEDNOSTKI OCHOTNICZEJ STRAŻY POŻARNEJ" TextWrapping="Wrap" FontSize="22" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Bold" Height="107" VerticalAlignment="Top" Foreground="Red"/>
-        <Button x:Name="btn_1" Content="Dodaj członka" Margin="160,192,0,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" Click="btn_1_Click" HorizontalAlignment="Left" Width="202"/>
-        <Button x:Name="btn_2" Content="Wyświetl strażaków&#x0a;z terminem badań" Margin="160,237,0,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" HorizontalAlignment="Left" Width="202"/>
-        <Button x:Name="btn_3" Content="Zaktualizuj termin&#x0a;przeglądu sprzętu" Margin="0,237,160,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" FontWeight="Normal" HorizontalAlignment="Right" Width="202" Click="btn_3_Click"/>
-        <Button x:Name="btn_4" Content="Dodaj alarm" Margin="0,192,160,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" HorizontalAlignment="Right" Width="202" Click="btn_4_Click"/>
+        <Button x:Name="btn_1" Content="Dodaj członka" Margin="299,180,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" Click="btn_1_Click"/>
+        <Button x:Name="btn_3" Content="Zaktualizuj termin&#x0a;przeglądu sprzętu" Margin="299,270,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" FontWeight="Normal" Click="btn_3_Click"/>
+        <Button x:Name="btn_2" Content="Dodaj alarm" Margin="299,225,299,0" VerticalAlignment="Top" Height="40" FontFamily="Bahnschrift" FontSize="14" Click="btn_4_Click"/>
 
     </Grid>
 
