@@ -3,18 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wsei-cslab-semestral-project", "wsei-cslab-semestral-project\wsei-cslab-semestral-project.csproj", "{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wsei-cslab-semestral-project", "wsei-cslab-semestral-project\wsei-cslab-semestral-project.csproj", "{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{51C81130-C28D-464F-A9DD-7CE0AF8A9600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Setup|Any CPU = Setup|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{DD968A94-D7EC-4F69-865F-185DB1E1DEDB}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{51C81130-C28D-464F-A9DD-7CE0AF8A9600}.Debug|Any CPU.ActiveCfg = Release
+		{51C81130-C28D-464F-A9DD-7CE0AF8A9600}.Release|Any CPU.ActiveCfg = Release
+		{51C81130-C28D-464F-A9DD-7CE0AF8A9600}.Setup|Any CPU.ActiveCfg = Setup
+		{51C81130-C28D-464F-A9DD-7CE0AF8A9600}.Setup|Any CPU.Build.0 = Setup
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
